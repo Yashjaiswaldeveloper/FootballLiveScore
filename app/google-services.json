@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "832929408249",
+    "project_id": "football-tv-7ff16",
+    "storage_bucket": "football-tv-7ff16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832929408249:android:72c08e5e8c5ac6d6b3ae28",
+        "android_client_info": {
+          "package_name": "com.footballtv.onlinetv.livescore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832929408249-vgn4gc5ml02e49jlthrjabqpv0t1g3bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwy0cXXxPasO51MXPBQo__Y8X2LXuoO40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832929408249-vgn4gc5ml02e49jlthrjabqpv0t1g3bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832929408249:android:a86d072ad27b5493b3ae28",
+        "android_client_info": {
+          "package_name": "com.livescore.football.matchtv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832929408249-vgn4gc5ml02e49jlthrjabqpv0t1g3bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwy0cXXxPasO51MXPBQo__Y8X2LXuoO40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832929408249-vgn4gc5ml02e49jlthrjabqpv0t1g3bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832929408249:android:4a2e1ab672c8070eb3ae28",
+        "android_client_info": {
+          "package_name": "com.livetv.footballscore.livescores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832929408249-vgn4gc5ml02e49jlthrjabqpv0t1g3bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwy0cXXxPasO51MXPBQo__Y8X2LXuoO40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832929408249-vgn4gc5ml02e49jlthrjabqpv0t1g3bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/footballscore_bg">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/r1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_110sdp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/startguide1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/startguide"
+                    android:layout_margin="30dp"
+                    android:elevation="10dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/btn_livetv" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/startguide"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/main_ads"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/btn_livestreaming" />
+
+                    <!--                    <RelativeLayout-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="350dp">-->
+
+                    <!--                        <LinearLayout-->
+                    <!--                            android:id="@+id/native_ads"-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:orientation="vertical">-->
+
+                    <!--                        </LinearLayout>-->
+                    <!--                    </RelativeLayout>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/startguide2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="30dp"
+                    android:elevation="10dp"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/btn_guide" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

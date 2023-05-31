@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.livetv.footballscore.livescores">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+    <application
+        android:name="com.livetv.footballscore.livescores.MyApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FootballLiveTV"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.MyWebActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.AritelLive_SportChannelContent"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.LiveChannelActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.ChannelActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.SelectSportActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.SportActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.ThankyouActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.ExitActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!--        <activity-->
+<!--            android:name=".Channle_list"-->
+<!--            android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.footballscore_FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.Guide2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.Guide1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.Guide_Content_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.Guide_Detail_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.footballscore_LeagueDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.footballscore_LeagueListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.footballscore_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.footballscore_MatchDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.footballscore_NewsDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.footballscore_PlayerInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.livetv.footballscore.livescores.activity.footballscore_TeamDetailsActivity"
+            android:screenOrientation="portrait" />
+<!--        <activity-->
+<!--            android:name=".Live_Streem"-->
+<!--            android:screenOrientation="portrait" />-->
+    </application>
+
+</manifest>

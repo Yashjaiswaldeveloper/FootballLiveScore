@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FootballLiveTV" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/Black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/Black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomTabLayout">
+        <item name="tabIndicatorColor">@color/colorPrimaryDark</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabSelectedTextColor">@color/Black</item>
+        <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>
+    </style>
+
+    <style name="CustomTabTextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Custom">
+        <item name="android:windowFullscreen">@null</item>
+    </style>
+    <style name="Texting">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Custom1">
+        <item name="android:windowFullscreen">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="LoaderTheme">
+        <item name="colorAccent">#ffffffff</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/Red</item>
+        <item name="colorPrimaryDark">@color/Red</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay"></style>
+
+    <style name="Theme_Football_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme1">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/Red</item>
+        <item name="colorPrimaryDark">@color/Red</item>
+    </style>
+
+    <style name="FullWidth_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+</resources>

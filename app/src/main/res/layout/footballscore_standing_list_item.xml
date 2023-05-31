@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/standings_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_team_logo"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_local_team_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="5"
+                    android:layout_gravity="center"
+                    style="@style/Texting"/>
+
+                <TextView
+                    android:id="@+id/tv_local_team_gp"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Texting" />
+
+                <TextView
+                    android:id="@+id/tv_local_team_wins"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Texting"/>
+
+                <TextView
+                    android:id="@+id/tv_local_team_draw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    style="@style/Texting" />
+
+                <TextView
+                    android:id="@+id/tv_local_team_loss"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/Texting"/>
+
+                <TextView
+                    android:id="@+id/tv_local_team_gd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    style="@style/Texting"/>
+
+                <TextView
+                    android:id="@+id/tv_local_team_pts"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    style="@style/Texting" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
